@@ -18,7 +18,7 @@ class Pilosa < Formula
 
   go_resource "github.com/rakyll/statik" do
     url "https://github.com/rakyll/statik.git",
-        :revision => "25d6cab4d68d2a9b7c5965aa381726dd5dd6d7b8"
+        :tag => "v0.1.1"
   end
 
   def install
